@@ -9,7 +9,6 @@ export const GlobalStyled = createGlobalStyle`
     font-family: 'Noto Sans', sans-serif; 
   }
   body{
-    width: 100vw;
-    
-}
+    height: 100vh;
+  }
 `
