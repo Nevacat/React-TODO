@@ -9,6 +9,8 @@ export const GlobalStyled = createGlobalStyle`
     font-family: 'Noto Sans', sans-serif; 
   }
   body{
+    font-size: ${({theme})=>theme.fontSize.regular};
     height: 100vh;
+    background-color:#1e1e1e;
   }
 `
