@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import * as S from './style'
+import { useLocation } from 'react-router-dom';
+function Btn({name, onClick}) {
 
-function index() {
-  return (
-    <div>index</div>
-  )
+  return <S.Btn onClick={onClick} name={name}>{name}</S.Btn>;
 }
 
-export default index
+export default Btn;
