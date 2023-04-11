@@ -15,7 +15,7 @@ const fontWeight = {
 const darkVersion = {
   background: '#141414',
   fontPrimary: '#ffffff',
-  box: '#292A2D',
+  box: '#181818',
 };
 
 const color = {
@@ -26,6 +26,12 @@ const color = {
   black: '#141414',
   white: '#ffffff',
 };
+
+const PriorityColor = {
+  1 : '#78ACD5',
+  2 : '#FCF302',
+  3: '#FF2460'
+}
 
 const hide = {
   opacity: '0',
@@ -45,6 +51,7 @@ const theme = {
   fontWeight,
   darkVersion,
   color,
+  PriorityColor,
   hide,
   gradient,
 };
