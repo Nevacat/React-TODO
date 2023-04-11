@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import Btn from '../../components/common/Btn';
 
 const Circle = css`
   position: absolute;
